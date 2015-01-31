@@ -9,11 +9,11 @@ function myFunction() {
     console.log(match);
     console.log(match[0]);
 
-    for( var i = 0; race[i] <= race.length(); i++) {
-    	if ( match[i] === race[i] ) {
-    		document.getElementById("message").innerHTML = '<p class="notes">Found asian keyword</p>';
-    	}
-    }
+    // for( var i = 0; race[i] <= race.length(); i++) {
+    // 	if ( match[i] === race[i] ) {
+    // 		document.getElementById("message").innerHTML = '<p class="notes">Found asian keyword</p>';
+    // 	}
+    // }
 
 
 }
