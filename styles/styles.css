@@ -1,10 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  background-color: #B3ECFF;
 }
 
 .container {
-  background-color: #B3ECFF;
   color: #101010;
   margin: 0px;
   width: 100%;
@@ -23,4 +23,6 @@ body form textarea {
   text-align: center;
   margin: 0px;
   border-bottom: 0px;
+  background-color: #FFFFFF;
+  padding-top: 1px;
 }
