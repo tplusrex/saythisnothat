@@ -35,7 +35,7 @@ header {
 }
 
 header.sticky {
-  font-size: 45px;
+  font-size: 20px;
   height: 37px;
   background: #52C9F0;
   text-align: left;
@@ -51,4 +51,8 @@ small {
   font-size: 60%;
   color: #52C9F0;
   display: block;
+}
+
+.bold {
+  font-weight: 500;
 }
