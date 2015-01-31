@@ -11,7 +11,12 @@ var data =
         name: "immigration",
         notes: "",
         links: "",
-        keywords: "",
+        keywords: [
+          {
+            keywordText: "",
+            links: ["www.hi.com", "www.hello.com"]
+          }
+        ]
       }
     ]
   }
