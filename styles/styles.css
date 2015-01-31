@@ -13,3 +13,8 @@ body form label {
 body form textarea {
   font-weight: 300;
 }
+
+.page-header {
+  text-align: center;
+  
+}
