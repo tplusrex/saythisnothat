@@ -49,10 +49,6 @@ header.sticky small {
 
 small {
   font-size: 60%;
-  color: #52C9F0
+  color: #52C9F0;
   display: block;
-}
-
-h1 {
-  30px;
 }
