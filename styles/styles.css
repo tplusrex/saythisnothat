@@ -36,10 +36,20 @@ header {
 
 header.sticky {
   font-size: 24px;
-  height: 48px;
-  background: #efc47D;
+  height: 37px;
+  background: #52C9F0;
   text-align: left;
   padding-left: 20px;
+  color: #FFFFFF;
+}
+
+header.sticky small {
+  display: none;
+}
+
+small {
+  font-size: 60%;
+  display: block;
 }
 
 h1 {
