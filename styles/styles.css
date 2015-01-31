@@ -1,9 +1,14 @@
 body {
-  background-color: #B3ECFF;
-  color: #101010;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin: 0px 20px;
+  background-color: #B3ECFF;
+}
+
+.container {
+  color: #101010;
+  margin: 0px;
+  width: 100%;
+  padding: 10px;
 }
 
 body form label {
@@ -12,4 +17,12 @@ body form label {
 
 body form textarea {
   font-weight: 300;
+}
+
+.page-header {
+  text-align: center;
+  margin: 0px;
+  border-bottom: 0px;
+  background-color: #FFFFFF;
+  padding-top: 1px;
 }
