@@ -6,7 +6,7 @@ function myFunction() {
     var match = regex.exec(x);
 
     var race = ['asian','hispanic','indian','european'];
-
+    console.log(match);
     console.log(match[0]);
 
     for( var i = 0; race[i] <= race.length(); i++) {
