@@ -9,16 +9,16 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
     <script src="javascript/script.js"></script>
   </head>
 
   <body>
-    <div class="page-header">
-      <h1>
-        SayThisNotThat
+    <header>
+        SayThis<span class="bold">NotThat</span>
         <br/>
         <small>Check what you say, before you say it</small>
-      </h1>
+      </header>
     </div>
     <div class="container">
       <form role="form">
@@ -35,6 +35,24 @@
 	    <ul id="messages">
 	    </ul>
     </div>
+
+    <script type="text/template" id="category-template">
+      <div class="category-list">
+        <h2>Categories</h2>
+        <ul>
+          <% _.each( data, function(cat) { %>
+          <li>
+            <%= cat.categoryName.charAt(0).toUpperCase() + cat.categoryName.slice(1) %> <div class="btn-group btn-toggle">
+              <button class="btn btn-sm btn-primary active">ON</button>
+              <button class="btn btn-sm btn-default">OFF</button>
+              </div>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </script>
+    <script src="javascript/data.js"></script>
+    <script src="javascript/pull.js"></script>
   </body>
 
 </html>
