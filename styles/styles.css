@@ -3,8 +3,13 @@ body {
   color: #101010;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  margin: 0px 20px;
 }
 
-body form {
-  
+body form label {
+  font-weight: 300;
+}
+
+body form textarea {
+  font-weight: 300;
 }
