@@ -4,9 +4,9 @@ function myFunction() {
     var x = document.getElementById("content-area").value;
 
     var match = regex.exec(x);
-    console.log(match[0]);
+    console.log(match);
 
-    if( match[0] === 'asian' ) {
+    if( match === 'asian' ) {
     	document.getElementById("message").innerHTML = '<p class="notes">Found asian keyword</p>';
     }
 
