@@ -1,19 +1,28 @@
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<!- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="javascript/script.js"></script>
+  </head>
 
-<form role="form">
-  <div class="form-group">
-    <label for="textInput">Enter text:</label>
-    <textarea id="content-area" class="form-control" rows="10" id="textInput"></textarea>
-  </div>
-  <button onclick="myFunction()" type="button" class="btn btn-default">Submit</button>
-</form>
-<h2>Messages</h2>
-<div id="message">
-</div>
+  <body>
+    <h1>Welcome to SayThisNotThat</h1>
+    <form role="form">
+      <div class="form-group">
+        <label for="textInput">Enter text:</label>
+        <textarea id="content-area" class="form-control" rows="10" id="textInput"></textarea>
+      </div>
+      <button onclick="myFunction()" type="button" class="btn btn-default">Submit</button>
+    </form>
+    <h2>Messages</h2>
+    <div id="messages">
+    </div>
+  </body>
 
-<script src="javascript/script.js"></script>
+</html>
