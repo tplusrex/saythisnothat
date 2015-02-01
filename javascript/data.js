@@ -2,7 +2,8 @@ var data =
   [
     {
       "id": 0,
-      "categoryName": "identities",
+      "categoryName": "Identities",
+      "enabled": true,
       "keywords": [
         {
           "keywordText": "achievement gap",
@@ -68,6 +69,18 @@ var data =
             "http://everydayfeminism.com/2014/11/ableist-language-matters/"
           ]
         },
+      ]
+    },
+    {
+      "id": 1,
+      "categoryName": "Gender Inclusion",
+      "enabled": true,
+      "keywords": [
+        {
+          "keywordText": "mankind",
+          "alternatives": [""],
+          "links": [""]
+        },
         {
           "keywordText": "bi-sexual",
           "alternatives":  ["pansexual", "polysexual" ],
@@ -128,7 +141,8 @@ var data =
     },
     {
       "id": 2,
-      "categoryName": "militaristic language",
+      "categoryName": "Militaristic Language",
+      "enabled": true,
       "keywords": [
         {
           "keywordText": "war on",
