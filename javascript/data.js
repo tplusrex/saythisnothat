@@ -85,7 +85,7 @@ var data =
           "links": ["http://everydayfeminism.com/2015/01/bi-vs-pan/"]
         },
         {
-          "keywordText": "transgender",
+          "keywordText": "transgendered",
           "alternatives": [ "transgender", "trans*" ],
           "links": ["http://www.huffingtonpost.com/joanne-herman/transgender-or-transgende_b_492922.html"]
         },
