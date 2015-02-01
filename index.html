@@ -38,11 +38,12 @@
         <h2>Categories</h2>
         <ul>
           <% _.each( data, function(cat) { %>
-          <li>
-            <%= cat.categoryName.charAt(0).toUpperCase() + cat.categoryName.slice(1) %> <div class="btn-group btn-toggle">
+          <li class=<%= cat.categoryName %>>
+            <%= cat.categoryName %> 
+            <div class="btn-group btn-toggle">
               <button class="btn btn-sm btn-primary active">ON</button>
               <button class="btn btn-sm btn-default">OFF</button>
-              </div>
+            </div>
           </li>
           <% }); %>
         </ul>
