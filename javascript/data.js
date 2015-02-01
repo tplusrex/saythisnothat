@@ -83,7 +83,12 @@ var data =
           "keywordText": "bi sexual",
           "alternatives":  ["pansexual", "polysexual" ],
           "links": ["http://everydayfeminism.com/2015/01/bi-vs-pan/"]
-        }
+        },
+        {
+          "keywordText": "transgender",
+          "alternatives": [ "transgender", "trans*" ],
+          "links": ["http://www.huffingtonpost.com/joanne-herman/transgender-or-transgende_b_492922.html"]
+        },
       ]
     },
     {
@@ -107,16 +112,6 @@ var data =
           "links": ["http://www.pbs.org/wgbh/nova/evolution/evolution-motherhood.html"]
         },
         {
-          "keywordText": "transgendered",
-          "alternatives": [ "transgender", "trans*" ],
-          "links": ["http://www.huffingtonpost.com/joanne-herman/transgender-or-transgende_b_492922.html"]
-        },
-        {
-          "keywordText": "transgender",
-          "alternatives": [ "transgender", "trans*" ],
-          "links": ["http://www.huffingtonpost.com/joanne-herman/transgender-or-transgende_b_492922.html"]
-        },
-        {
           "keywordText": "throw like a girl",
           "alternatives": ["don't throw very well"],
           "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
@@ -125,21 +120,6 @@ var data =
           "keywordText": "throw like a sissy",
           "alternatives": ["don't throw very well"],
           "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
-        },
-        {
-          "keywordText": "bi-sexual",
-          "alternatives":  ["pansexual", "polysexual" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "bisexual",
-          "alternatives": [ "pansexual", "polysexual" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "bi sexual",
-          "alternatives":  ["pansexual", "polysexual" ],
-          "links": [""]
         }
       ]
     },
