@@ -71,17 +71,17 @@ var data =
         {
           "keywordText": "bi-sexual",
           "alternatives":  ["pansexual", "polysexual" ],
-          "links": [""]
+          "links": ["http://everydayfeminism.com/2015/01/bi-vs-pan/"]
         },
         {
           "keywordText": "bisexual",
           "alternatives": [ "pansexual", "polysexual" ],
-          "links": [""]
+          "links": ["http://everydayfeminism.com/2015/01/bi-vs-pan/"]
         },
         {
           "keywordText": "bi sexual",
           "alternatives":  ["pansexual", "polysexual" ],
-          "links": [""]
+          "links": ["http://everydayfeminism.com/2015/01/bi-vs-pan/"]
         }
       ]
     },
@@ -92,36 +92,36 @@ var data =
         {
           "keywordText": "mankind",
           "alternatives": ["humankind"],
-          "links": [""]
+          "links": ["https://www.coursera.org/course/humankind"]
         },
         {
           "keywordText": "father",
           "alternatives": [ "parent", "guardian" ],
-          "links": [""]
+          "links": ["https://www.childwelfare.gov/pubs/usermanuals/fatherhood/"]
         },
         {
           "keywordText": "mother",
           "alternatives": [ "parent", "guardian" ],
-          "links": [""]
+          "links": ["http://www.pbs.org/wgbh/nova/evolution/evolution-motherhood.html"]
         },
         {
           "keywordText": "transgendered",
           "alternatives": [ "transgender", "trans*" ],
-          "links": [""]
+          "links": ["http://www.huffingtonpost.com/joanne-herman/transgender-or-transgende_b_492922.html"]
         },
         {
           "keywordText": "transgender",
           "alternatives": [ "transgender", "trans*" ],
-          "links": [""]
+          "links": ["http://www.huffingtonpost.com/joanne-herman/transgender-or-transgende_b_492922.html"]
         },
         {
           "keywordText": "throw like a girl",
-          "alternatives": [""],
+          "alternatives": ["don't throw very well"],
           "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
         },
         {
           "keywordText": "throw like a sissy",
-          "alternatives": [""],
+          "alternatives": ["don't throw very well"],
           "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
         },
       ]
