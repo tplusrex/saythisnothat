@@ -2,7 +2,8 @@ var data =
   [
     {
       "id": 0,
-      "categoryName": "identities",
+      "categoryName": "Identities",
+      "enabled": true,
       "keywords": [
         {
           "keywordText": "achievement gap",
@@ -84,10 +85,11 @@ var data =
           "links": ["http://everydayfeminism.com/2015/01/bi-vs-pan/"]
         }
       ]
-    },
-    {
+      },
+      {
       "id": 1,
-      "categoryName": "gender inclusion",
+      "categoryName": "Gender Inclusion",
+      "enabled": true,
       "keywords": [
         {
           "keywordText": "mankind",
@@ -124,11 +126,30 @@ var data =
           "alternatives": ["don't throw very well"],
           "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
         },
-      ]
-    },
+          "alternatives": [""],
+          "links": [""]
+        },
+        {
+          "keywordText": "bi-sexual",
+          "alternatives":  ["pansexual", "polysexual" ],
+          "links": [""]
+        },
+        {
+          "keywordText": "bisexual",
+          "alternatives": [ "pansexual", "polysexual" ],
+          "links": [""]
+        },
+        {
+          "keywordText": "bi sexual",
+          "alternatives":  ["pansexual", "polysexual" ],
+          "links": [""]
+        }
+      ];
+      },
     {
       "id": 2,
-      "categoryName": "militaristic language",
+      "categoryName": "Militaristic Language",
+      "enabled": true,
       "keywords": [
         {
           "keywordText": "war on",

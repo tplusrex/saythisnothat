@@ -88,10 +88,12 @@ small {
 
 .tabbed {
   padding-left: 10px;
+  display: inline;
 }
 
 h2 {
   font-size: 15px;
+  margin-top: 0px;
 }
 
 h3 {
@@ -101,7 +103,7 @@ h3 {
   font-weight: 300;
 }
 
-span {
+.moreTab {
   padding-left: 30px;
 }
 

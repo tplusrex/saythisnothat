@@ -1,8 +1,5 @@
 var template = _.template($("#category-template").html()); //create template obj with underscore
 $("body").append(template({data: data})); //pass data into template obj and append to body (TODO change to apend to div)
-var identityCheck = false;
-var genderCheck = false;
-var militaristicCheck = false;
 
 $('.btn-toggle').click(function() {
 
@@ -27,12 +24,12 @@ $('.btn-toggle').click(function() {
 
 $(document).ready(function() {
   $(".Identities > .btn-group").click(function() {
-    identityCheck = !identityCheck;
+    data[0].enabled = !data[0].enabled;
   });
   $(".Gender > .btn-group").click(function() {
-    genderCheck = !genderCheck;
+    data[1].enabled = !data[1].enabled;
   });
   $(".Militaristic > .btn-group").click(function() {
-    militaristicCheck = !militaristicCheck;
+    data[2].enabled = !data[2].enabled;
   });
 });
