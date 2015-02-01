@@ -22,15 +22,15 @@ function myFunction() {
             var index = text.indexOf(keyword);
             if (index != -1) {
                 if (firstTime) {
-                    message += '<h2>You\'ve entered words related to ' + data[i].categoryName + '</h2>';
+                    message += '<h2 class="' + data[i].categoryName.toLowerCase().replace(/\s+/g, '') + '">You\'ve entered words related to ' + data[i].categoryName + '</h2>';
                     firstTime = false;
                 }
                 message += '<h3>Word: ' + keyword + '</h3>';
-                message += '<span>Suggested Alternatives: ' + data[i].keywords[j].alternatives.join(', ') + '</span>';
-                message += '<br/><span>Learn more at:<br/><div class="tabbed">';
+                message += '<span class="moreTab">Suggested Alternatives: ' + data[i].keywords[j].alternatives.join(', ') + '</span>';
+                message += '<br/><span class="moreTab">Learn more at:<div class="tabbed">';
                 var k;
                 for (k = 0; k < data[i].keywords[j].links.length; k++) {
-                    message += '<a href="' + data[i].keywords[j].links[k] + '">' + data[i].keywords[j].links[k] + '</a><br/>';
+                    message += '<br/><a href="' + data[i].keywords[j].links[k] + '">' + data[i].keywords[j].links[k] + '</a>';
                 }
                 message += '</div></span>';
                 var preText = '<span class="' + data[i].categoryName.toLowerCase().replace(/\s+/g, '') + '">';
