@@ -14,14 +14,18 @@ function myFunction() {
 
     var i;
     for (i = 0; i < data.length; i++) {
+        var firstTime = true;
         var keywords = data[i].keywords;
-        message += '<h2>You\'ve entered words related to ' + data[i].categoryName + '</h2>';
         var j;
         for (j = 0; j < keywords.length; j++) {
             var keyword = keywords[j].keywordText;
             var index = text.indexOf(keyword);
             if (index != -1) {
-                 message += '<h3>Word: ' + keyword + '</h3>';
+                if (firstTime) {
+                    message += '<h2>You\'ve entered words related to ' + data[i].categoryName + '</h2>';
+                    firstTime = false;
+                }
+                message += '<h3>Word: ' + keyword + '</h3>';
                 message += '<span>Suggested Alternatives: ' + data[i].keywords[j].alternatives.join(', ') + '</span>';
                 message += '<br/><span>Learn more at:<br/><div class="tabbed">';
                 var k;

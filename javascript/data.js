@@ -68,17 +68,6 @@ var data =
             "http://everydayfeminism.com/2014/11/ableist-language-matters/"
           ]
         },
-      ]
-    },
-    {
-      "id": 1,
-      "categoryName": "gender inclusion",
-      "keywords": [
-        {
-          "keywordText": "mankind",
-          "alternatives": [""],
-          "links": [""]
-        },
         {
           "keywordText": "bi-sexual",
           "alternatives": [""],
@@ -91,6 +80,17 @@ var data =
         },
         {
           "keywordText": "bi sexual",
+          "alternatives": [""],
+          "links": [""]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "categoryName": "gender inclusion",
+      "keywords": [
+        {
+          "keywordText": "mankind",
           "alternatives": [""],
           "links": [""]
         },
