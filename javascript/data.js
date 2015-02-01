@@ -70,17 +70,17 @@ var data =
         },
         {
           "keywordText": "bi-sexual",
-          "alternatives": [""],
+          "alternatives":  ["pansexual", "polysexual" ],
           "links": [""]
         },
         {
           "keywordText": "bisexual",
-          "alternatives": [""],
+          "alternatives": [ "pansexual", "polysexual" ],
           "links": [""]
         },
         {
           "keywordText": "bi sexual",
-          "alternatives": [""],
+          "alternatives":  ["pansexual", "polysexual" ],
           "links": [""]
         }
       ]
@@ -91,17 +91,7 @@ var data =
       "keywords": [
         {
           "keywordText": "mankind",
-          "alternatives": [""],
-          "links": [""]
-        },
-        {
-          "keywordText": "he",
-          "alternatives": [ "they" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "she",
-          "alternatives": [ "they" ],
+          "alternatives": ["humankind"],
           "links": [""]
         },
         {
@@ -116,12 +106,12 @@ var data =
         },
         {
           "keywordText": "transgendered",
-          "alternatives": [""],
+          "alternatives": [ "transgender", "trans*" ],
           "links": [""]
         },
         {
           "keywordText": "transgender",
-          "alternatives": [""],
+          "alternatives": [ "transgender", "trans*" ],
           "links": [""]
         },
         {
