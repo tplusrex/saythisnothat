@@ -99,47 +99,6 @@ var data =
       ]
     },
     {
-      "id": 1,
-      "categoryName": "gender inclusion",
-      "keywords": [
-        {
-          "keywordText": "mankind",
-          "alternatives": ["humankind"],
-          "links": [""]
-        },
-        {
-          "keywordText": "father",
-          "alternatives": [ "parent", "guardian" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "mother",
-          "alternatives": [ "parent", "guardian" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "transgendered",
-          "alternatives": [ "transgender", "trans*" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "transgender",
-          "alternatives": [ "transgender", "trans*" ],
-          "links": [""]
-        },
-        {
-          "keywordText": "throw like a girl",
-          "alternatives": [""],
-          "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
-        },
-        {
-          "keywordText": "throw like a sissy",
-          "alternatives": [""],
-          "links": ["http://www.slate.com/blogs/xx_factor/2014/09/11/james_brown_on_domestic_violence_the_cbs_sportscaster_delivers_a_powerful.html"]
-        },
-      ]
-    },
-    {
       "id": 2,
       "categoryName": "Militaristic Language",
       "enabled": true,
