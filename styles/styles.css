@@ -56,3 +56,19 @@ small {
 .bold {
   font-weight: 500;
 }
+
+.identities {
+  background-color: #FFD9B0;
+}
+
+.genderinclusion {
+  background-color: #E5FFB0;
+}
+
+.militaristic {
+  background-color: #B8B0D1;
+}
+
+.summary {
+  background-color: white;
+}

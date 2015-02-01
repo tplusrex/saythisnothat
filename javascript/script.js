@@ -8,28 +8,25 @@ if ($(this).scrollTop() > 1){
 });
 
 function myFunction() {
+    var text = document.getElementById("content-area").value;
 
-	var regex = /(lame|retard)/g;
-    var x = document.getElementById("content-area").value;
-
-    var output = x.match(regex);
-
-    var summary = x.replace(regex,'<span class=' + '$1' + '>' + '$1' + '</span>');
-
-    $("#summary").append('<p>' + summary + '</p>');
-
-    for ( var i = 0; i < output.length; i++ ) {
-    	var message;
-    	if (output[i] === 'lame') {
-    		message = 'this is a message for asian';
-    	}
-    	if (output[i] === 'retard') {
-    		message = 'this is a message for gender';
-    	}
-    	$("#messages").append('<li><span class="word">' + output[i] + '</span> <span class="message">' + message + '</span></li>');
+    var i;
+    for (i = 0; i < data.length; i++) {
+        var keywords = data[i].keywords;
+        var j;
+        for (j = 0; j < keywords.length; j++) {
+            var keyword = keywords[j].keywordText;
+            var index = text.indexOf(keyword);
+            if (index != -1) {
+                var preText = '<span class="' + data[i].categoryName.toLowerCase().replace(/\s+/g, '') + '">';
+                var postText = '</span>';
+                text = [text.slice(0, index), preText, keyword, postText, text.slice(index+keyword.length)].join('');
+            }
+        }
     }
 
-    console.log(output);
-    console.log(output.length);
+    $("#summary").append('<p>' + text + '</p>');
+
+
 
 }
