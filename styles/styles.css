@@ -69,6 +69,8 @@ small {
   background-color: #B8B0D1;
 }
 
-.summary {
+#content-area {
   background-color: white;
+  height: 200px;
+  overflow: scroll;
 }

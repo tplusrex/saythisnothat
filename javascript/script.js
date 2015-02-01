@@ -8,9 +8,9 @@ if ($(this).scrollTop() > 1){
 });
 
 function myFunction() {
-    var text = document.getElementById("content-area").value;
+    var text = $("#content-area").html();
 
-    var message = '';
+    var message = '<h1>Suggestions</h1>';
 
     var i;
     for (i = 0; i < data.length; i++) {
@@ -31,7 +31,8 @@ function myFunction() {
         }
     }
 
-    $("#summary").append(text + '<br/><br/>' + message);
+    $("#content-area").html(text);
+    $("#suggestions").html(message);
 
 
 
