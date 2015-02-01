@@ -12,8 +12,10 @@ body {
   padding-top: 100px;
 }
 
-body form label {
+label {
   font-weight: 300;
+  background-color: #B3ECFF;
+  display: block;
 }
 
 body form textarea {
@@ -73,4 +75,17 @@ small {
   background-color: white;
   height: 200px;
   overflow: scroll;
+  padding: 10px;
+}
+
+#suggestions {
+  background-color: white;
+}
+
+.padThis {
+  padding: 10px;
+}
+
+.tabbed {
+  padding-left: 10px;
 }

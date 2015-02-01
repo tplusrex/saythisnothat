@@ -2,7 +2,7 @@ var data =
   [
     {
       "id": 0,
-      "categoryName": "Identities",
+      "categoryName": "identities",
       "keywords": [
         {
           "keywordText": "achievement gap",
@@ -72,7 +72,7 @@ var data =
     },
     {
       "id": 1,
-      "categoryName": "Gender Inclusion",
+      "categoryName": "gender inclusion",
       "keywords": [
         {
           "keywordText": "mankind",
@@ -138,7 +138,7 @@ var data =
     },
     {
       "id": 2,
-      "categoryName": "Militaristic Language",
+      "categoryName": "militaristic language",
       "keywords": [
         {
           "keywordText": "war on",

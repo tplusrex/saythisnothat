@@ -10,20 +10,25 @@ if ($(this).scrollTop() > 1){
 function myFunction() {
     var text = $("#content-area").html();
 
-    var message = '<h1>Suggestions</h1>';
+    var message = '<label>SUGGESTIONS</label><div class="padThis">';
 
     var i;
     for (i = 0; i < data.length; i++) {
         var keywords = data[i].keywords;
-        message += '<h2>' + data[i].categoryName + '</h2>';
+        message += '<h2>You\'ve entered words related to ' + data[i].categoryName + '</h2>';
         var j;
         for (j = 0; j < keywords.length; j++) {
             var keyword = keywords[j].keywordText;
             var index = text.indexOf(keyword);
             if (index != -1) {
-                 message += '<h3>' + keyword + '</h3>';
+                 message += '<h3>Word: ' + keyword + '</h3>';
                 message += '<span>Suggested Alternatives: ' + data[i].keywords[j].alternatives.join(', ') + '</span>';
-                message += '<span>More Information at: ' + data[i].keywords[j].links.join(', ') + '</span>';
+                message += '<br/><span>Learn more at:<br/><div class="tabbed">';
+                var k;
+                for (k = 0; k < data[i].keywords[j].links.length; k++) {
+                    message += '<a href="' + data[i].keywords[j].links[k] + '">' + data[i].keywords[j].links[k] + '</a><br/>';
+                }
+                message += '</div></span>';
                 var preText = '<span class="' + data[i].categoryName.toLowerCase().replace(/\s+/g, '') + '">';
                 var postText = '</span>';
                 text = [text.slice(0, index), preText, keyword, postText, text.slice(index+keyword.length)].join('');
@@ -32,7 +37,7 @@ function myFunction() {
     }
 
     $("#content-area").html(text);
-    $("#suggestions").html(message);
+    $("#suggestions").html(message + '</div>');
 
 
 
