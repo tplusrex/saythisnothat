@@ -110,3 +110,14 @@ h3 {
 a {
   padding-left: 45px;
 }
+
+.description {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 2.3;
+  height: 300px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
