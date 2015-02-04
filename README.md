@@ -6,7 +6,7 @@ a working prototype was built during Mozilla's Social Good hackathon. this is re
 development of the tool.
 
 # contributers
-https://github.com/mmomen
-https://github.com/shwetap3
-https://www.linkedin.com/in/shaanikasubramanyam
-https://www.linkedin.com/in/yeewon (Founder)
+* https://github.com/mmomen
+* https://github.com/shwetap3
+* https://www.linkedin.com/in/shaanikasubramanyam
+* https://www.linkedin.com/in/yeewon (Founder)
